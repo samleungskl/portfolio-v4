@@ -1,0 +1,53 @@
+.footerSection {
+    background: linear-gradient(90deg, #FF9966 0%, #FF5E62 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    clip-path: polygon(50% 10%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0);
+}
+
+.iconContainer {
+    display: flex;
+    flex-direction: row;
+    margin: 8px;
+}
+
+.icon {
+    color: white;
+    font-size: 30px;
+    margin: 16px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.designByMsg {
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+}
+
+.designYear {
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+}
+
+@media only screen and (min-width: 320px) {
+    .footerSection {
+        padding-bottom: 72px;
+    }
+}
+
+@media only screen and (min-width: 430px) {
+    .footerSection {
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .icon {
+        font-size: 40px;
+        margin: 32px;
+    }
+}

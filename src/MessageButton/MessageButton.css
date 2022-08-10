@@ -1,0 +1,17 @@
+.MessageButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 20px;
+    width: 215px;
+    height: 55px;
+    background: linear-gradient(90deg, #FF9966 0%, #FF5E62 100%);
+    box-shadow: 2px 4px 4px rgba(255, 153, 102, 0.25);
+    border-radius: 10px;
+    color: white; 
+}
+
+.MessageButton:hover {
+    background: linear-gradient(90deg, #d78257 0%, #dd5153 100%);
+}

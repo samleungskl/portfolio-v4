@@ -1,0 +1,51 @@
+.AboutMeDevSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.aboutMeMsg {
+    margin-top: 8px;
+}
+
+.emojisContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    font-size: 150px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.aboutMeEmojis {
+    margin: 8px;
+}
+
+@media only screen and (min-width: 428px) {
+    .aboutMeMsg {
+        max-width: 400px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .AboutMeDevSection {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+}
+
+@media only screen and (min-width: 1025px) {
+    .aboutMeEmojis {
+        font-weight: 400;
+        font-size: 200px;
+    }
+}

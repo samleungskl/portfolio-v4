@@ -1,0 +1,208 @@
+.ProjectsSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.smallSquare {
+    background-size: 100%;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.amazonPriceTrackerContainer {
+    background-image: url(../assets/images/amazon-price-tracker-square.png);
+    display: flex;
+    flex-direction: column;
+}
+
+.amazonPriceTrackerName {
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+    text-align: start;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.apartmentHunterContainer {
+    background-image: url(../assets/images/apartment-hunter-square.png);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.apartmentHunterName {
+    font-weight: 400;
+    font-size: 25px;
+    font-family: 'Rosarivo', serif;
+    color: black;
+    margin-bottom: 8px;
+}
+
+.noodlesExpressContainer {
+    background-image: url(../assets/images/noodles-express-square.png);
+    display: flex;
+    text-align: end;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.noodlesExpressName {
+    font-weight: 400;
+    font-size: 40px;
+    color: white;
+    line-height: 35px;
+    font-family: 'Hanalei Fill', cursive;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+
+.noodlesExpressContainer {
+    background-image: url(../assets/images/noodles-express-square.png);
+    display: flex;
+    text-align: end;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.noodlesExpressName {
+    font-weight: 400;
+    font-size: 40px;
+    color: white;
+    line-height: 35px;
+    max-width: 100px;
+    font-family: 'Hanalei Fill', cursive;
+    margin-right: 64px;
+    margin-bottom: 16px;
+}
+
+.ApiMockerContainer {
+    background-image: url(../assets/images/api-mocker-square.png);
+    display: flex;
+    text-align: start;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ApiMockerName {
+    font-weight: 400;
+    font-size: 50px;
+    color: white;
+    font-family: 'VT323', monospace;
+    max-width: 100px;
+    line-height: 40px;
+    margin-left: 16px;
+}
+
+.ShowMoreContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EDEDED;
+}
+.ShowMoreName {
+    color: #BABABA;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.desktopVersion{
+    display: none;
+}
+
+@media only screen and (min-width: 428px) {
+    .smallSquare {
+        background-size: 100%;
+        width: 400px;
+        height: 400px;
+        border-radius: 10px;
+        margin-bottom: 16px;
+    }
+
+    .apartmentHunterName {
+        font-size: 35px;
+        margin-bottom: 8px;
+    }
+
+    .ApiMockerName {
+        font-size: 70px;
+        line-height: 50px;
+    }
+
+    .noodlesExpressName {
+        font-size: 60px;
+        line-height: 60px;
+        margin-right: 140px;
+        margin-bottom: 32px;
+    }
+
+    .amazonPriceTrackerName {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .apartmentHunterContainer {
+        background-image: url(../assets/images/apartment-hunter-rectangle.png);
+    }
+
+    .smallSquare {
+        margin-right: 16px;
+        width: 326px;
+        height: 326px;
+    }
+
+    .largeRectangle {
+        width: 672px;
+        height: 326px;
+    }
+
+    .tabletRow2Container {
+        display: flex;
+    }
+
+    .tabletRow3Container {
+        display: flex;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .mobileAndTabletVersion {
+        display: none;
+    }
+    .desktopVersion{
+        display: flex;
+        flex-direction: column;
+    }
+    .desktopRow1Container{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .desktopRowColumnContainer{
+        display: flex;
+        flex-direction: row;
+    }
+    .desktopColumn1Container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .largeSquare {
+        width: 672px;
+        height: 672px;
+    }
+
+    .noodlesExpressName {
+        font-size: 100px;
+        line-height: 100px;
+        margin-right: 300px;
+        margin-bottom: 64px;
+    }
+}

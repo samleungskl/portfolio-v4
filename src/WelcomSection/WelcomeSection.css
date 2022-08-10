@@ -1,0 +1,33 @@
+.welcomeSectionBackground {
+    height: 600px;
+    padding-top: 80px;
+    clip-path: polygon(50% 5%, 100% 0, 100% 95%, 50% 100%, 0 95%, 0 0);
+    background: linear-gradient(90deg, #FF9966 0%, #FF5E62 100%);
+    /* background-image: url('../assets/images/backgroundPattern.svg'); */
+}
+
+.welcomeTitle {
+    margin-top: 48px;
+    color: white;
+}
+
+.welcomeMsg {
+    font-weight: 900;
+    font-size: 25px;
+    color: white;
+}
+
+.explainMsg {
+    color: white;
+    margin-top: 32px;
+}
+
+@media only screen and (min-width: 428px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+    .welcomeSectionBackground {
+        height: 450px;
+    }
+}

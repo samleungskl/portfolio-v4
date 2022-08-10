@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  min-width: 320px;
+}
+
+.splashSection {
+  margin: 16px 16px 16px 16px;
+}
+
+
+h1 {
+  margin: 0px;
+}
+
+h2 {
+  margin: 0px;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 35px;
+}
+
+.subtitle {
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.msg {
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.marginLeftRight {
+  margin-left: 16px;
+  margin-right: 16px;
+
+}
+
+.marginTopBottom{
+  margin-top: 64px;
+  margin-bottom: 128px;
+}
+
+.coloredText {
+  font-weight: 700;
+  background: linear-gradient(90.51deg, #FF9966 0.7%, #FF5E62 59.12%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+@media only screen and (min-width: 428px) {
+  .title {
+    font-weight: 900;
+    font-size: 48px;
+  }
+
+  .marginLeftRight {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+  .marginTopBottom{
+    margin-top: 96px;
+    margin-bottom: 128px;
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+}

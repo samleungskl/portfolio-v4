@@ -1,0 +1,40 @@
+.splashTitle {
+    margin-top: 50px;
+}
+
+.splashSubtitle {
+    margin-top: 8px;
+}
+
+.profileImageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+@media only screen and (min-width: 768px) {
+    .SplashSection {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%
+      }
+
+    .profileImageContainer {
+        width: 50%;
+    }
+
+    .splashTitle {
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .splashSubtitle {
+        min-width: 500px;
+    }
+}

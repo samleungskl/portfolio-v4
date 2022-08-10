@@ -1,0 +1,23 @@
+.moreAboutMeSection {
+    margin-bottom: 64px;
+}
+
+.aboutMeHumanMsg {
+    margin: 24px 0px 24px 0px;
+}
+
+@media only screen and (min-width: 428px) {
+    .aboutMeHumanContainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+}
+
+@media only screen and (min-width: 1025px) {
+    .aboutMeHumanMsg {
+        font-size: 30px;
+    }
+}
