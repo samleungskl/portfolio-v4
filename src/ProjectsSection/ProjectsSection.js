@@ -1,9 +1,4 @@
 import './ProjectsSection.css';
-import amazonPriceTrackerSquare from '../assets/images/amazon-price-tracker-square.png'
-import apartmentHunterRectangle from '../assets/images/apartment-hunter-rectangle.png'
-import apartmentHunterSquare from '../assets/images/apartment-hunter-square.png'
-import apiMockerSquare from '../assets/images/api-mocker-square.png'
-import noodlesExpressSquare from '../assets/images/noodles-express-square.png'
 
 function ProjectsSection() {
     return (
