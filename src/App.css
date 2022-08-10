@@ -55,7 +55,10 @@ h2 {
     font-weight: 900;
     font-size: 48px;
   }
-
+  .msg {
+    font-weight: 400;
+    font-size: 30px;
+  }
   .marginLeftRight {
     margin-left: 48px;
     margin-right: 48px;
