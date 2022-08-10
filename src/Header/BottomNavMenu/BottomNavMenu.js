@@ -4,7 +4,7 @@ function BottomNavMenu() {
     return (
         <div className="BottomNavMenu">
             <a className='bottomNavItemContainer' href='#about-me'>
-                <i class="fa-regular fa-address-card bottomNavItemIcon"></i>
+                <i class="fa-regular fa-user bottomNavItemIcon"></i>
                 <div className='bottomNavItemLabel'>About</div>
             </a>
             <a className='bottomNavItemContainer' href='#projects'>
