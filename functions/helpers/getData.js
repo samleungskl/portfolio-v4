@@ -5,7 +5,7 @@ const { extractImgUrl } = require('./extractImgUrl');
 module.exports = async (event) => {
     try {
         const data = await Promise.all([
-            base('projects').select({ view: 'Grid view' }).all(),
+            base('projects').select({ view: 'display' }).all(),
         ]);
 
         const extractedData = data.map((element) => {

@@ -220,9 +220,9 @@
     height: 300px;
     box-sizing: border-box;
     padding: 36px;
-    position: absolute;
     opacity: 0;
     transition: .5s ease;
+    position: absolute;
     background-color: white;
     transform: translateY(-100%);
 }
@@ -234,9 +234,9 @@
     height: 300px;
     box-sizing: border-box;
     padding: 36px;
-    position: absolute;
     opacity: 1;
     transition: .5s ease;
+    position: absolute;
     background-color: white;
     transform: translateY(-100%);
 }
