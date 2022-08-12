@@ -8,7 +8,11 @@ import AboutMeHumanSection from './AboutMeHumanSection/AboutMeHumanSection';
 import GetInTouchSection from './GetInTouchSection/GetInTouchSection';
 import ProjectsSection from './ProjectsSection/ProjectsSection';
 
+import useApplicationData from './hooks/useApplicationData';
 function App() {
+  const { state } = useApplicationData();
+  console.log(state)
+
   return (
     <div className="App">
       <Header />
@@ -19,7 +23,7 @@ function App() {
         <WelcomeSection />
       </section>
       <section className='ProjectsSectionContainer marginTopBottom' id='projects'>
-        <ProjectsSection/>
+        <ProjectsSection />
       </section>
       <section className='aboutMeSectionContainer marginLeftRight marginTopBottom' id='about-me'>
         <AboutMeDevSection />
