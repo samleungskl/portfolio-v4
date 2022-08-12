@@ -137,3 +137,33 @@
 .ProjectListItemContainer:hover .infoContainer {
     opacity: 1;
 }
+
+@media only screen and (min-width: 780px) {
+    .project{
+        width: 328px;
+        height: 328px;
+    }
+    .apartmentHunterImage{
+        width: 672px;
+        height: 326px;
+    }
+    .noodlesExpressImage{
+        width: 672px;
+        height: 326px;
+    }
+    .amazonPriceTrackerImage{
+        margin-right: 16px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .apartmentHunterImage{
+        margin-right: 16px;
+    }
+    .amazonPriceTrackerImage{
+        margin-right: 0px;
+    }
+    .aPIMockerImage{
+        margin-right: 16px;
+    }
+}

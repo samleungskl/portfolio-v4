@@ -6,7 +6,7 @@ function ProjectListItem({ projectName, projectDescription, projectTechStack, pr
     const cssProjectNameClassName = `${projectNameNoSpace}Name`
     const cssClassName = `${projectNameNoSpace}Image project`
     return (
-        <div className='ProjectListItemContainer' onClick={() => {changeProjectVisible(projectRecID, 'click') }} onMouseEnter={() => {changeProjectVisible(projectRecID, 'hoverIn') }} onMouseLeave={() => {changeProjectVisible(projectRecID, 'hoverOut') }}
+        <div className='ProjectListItemContainer' onClick={() => {changeProjectVisible(projectRecID, 'click') }} 
         >
             <div className={cssContainerClassName}>
                 <div style={cssClassBackgroundImg} className={cssClassName}>
