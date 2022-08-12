@@ -1,0 +1,169 @@
+.project{
+    background-size: 100%;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.ProjectListItemContainer{
+    margin-bottom: 16px;
+}
+
+.infoContainer{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    box-sizing: border-box;
+    padding: 36px;
+    opacity: 0;
+    transition: .5s ease;
+    border-radius: 10px;
+    position: absolute;
+    background-color: white;
+    transform: translateY(-100%);
+}
+
+.infoTitle {
+    font-weight: 900;
+    font-size: 18px;
+    text-align: start;
+}
+
+.infoDescription {
+    font-weight: 400;
+    font-size: 14px;
+    height: 100%;
+    text-align: start;
+    margin-top: 16px;
+}
+
+.infoIconContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px;
+}
+
+.infoIcon {
+    font-size: 40px;
+    background: linear-gradient(180deg, #FF9966 0%, #FF5E62 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.infoTechStack {
+    font-weight: 400;
+    font-size: 12px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 100%;
+}
+
+.fa-figma{
+    margin-right: 5px;
+}
+
+.apartmentHunterImage{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    background-size: cover;
+    background-position:center;
+}
+.apartmentHunterName{
+    font-weight: 400;
+    font-size: 25px;
+    font-family: 'Rosarivo', serif;
+    color: black;
+    margin-bottom: 8px;
+}
+
+.amazonPriceTrackerImage{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.amazonPriceTrackerName{
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+    text-align: start;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.aPIMockerImage{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.aPIMockerName{
+    font-weight: 400;
+    font-size: 50px;
+    color: white;
+    font-family: 'VT323', monospace;
+    text-align: start;
+    max-width: 100px;
+    line-height: 40px;
+    margin-left: 16px;
+}
+
+.noodlesExpressImage{
+    display: flex;
+    text-align: end;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.noodlesExpressName{
+    font-weight: 400;
+    font-size: 40px;
+    color: white;
+    line-height: 35px;
+    max-width: 100px;
+    font-family: 'Hanalei Fill', cursive;
+    margin-right: 64px;
+    margin-bottom: 16px;
+}
+
+
+.ProjectListItemContainer:hover .infoContainer {
+    opacity: 1;
+}
+
+@media only screen and (min-width: 780px) {
+    .project{
+        width: 328px;
+        height: 328px;
+    }
+    .apartmentHunterImage{
+        width: 672px;
+        height: 326px;
+    }
+    .noodlesExpressImage{
+        width: 672px;
+        height: 326px;
+    }
+    .amazonPriceTrackerImage{
+        margin-right: 16px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .apartmentHunterImage{
+        margin-right: 16px;
+    }
+    .amazonPriceTrackerImage{
+        margin-right: 0px;
+    }
+    .aPIMockerImage{
+        margin-right: 16px;
+    }
+}
