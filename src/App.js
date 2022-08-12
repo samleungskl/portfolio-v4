@@ -13,7 +13,6 @@ import useApplicationData from './hooks/useApplicationData';
 
 function App() {
   const { state, changeProjectVisible } = useApplicationData();
-  // console.log(state)
   return (
     <div className="App">
       <Header />
