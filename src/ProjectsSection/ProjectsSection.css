@@ -5,6 +5,7 @@
     align-items: center;
     margin-left: 16px;
     margin-right: 16px;
+    position: relative;
 }
 
 .smallSquare {
@@ -12,9 +13,10 @@
     width: 300px;
     height: 300px;
     border-radius: 10px;
-    margin-bottom: 16px;
+    /* margin-bottom: 16px; */
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
+
 .amazonPriceTrackerContainer {
     background-image: url(../assets/images/amazon-price-tracker-square.png);
     display: flex;
@@ -28,21 +30,6 @@
     text-align: start;
     margin-top: 16px;
     margin-left: 16px;
-}
-
-.apartmentHunterContainer {
-    background-image: url(../assets/images/apartment-hunter-square.png);
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-.apartmentHunterName {
-    font-weight: 400;
-    font-size: 25px;
-    font-family: 'Rosarivo', serif;
-    color: black;
-    margin-bottom: 8px;
 }
 
 .noodlesExpressContainer {
@@ -100,19 +87,20 @@
     margin-left: 16px;
 }
 
-.ShowMoreContainer{
+.ShowMoreContainer {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #EDEDED;
 }
+
 .ShowMoreName {
     color: #BABABA;
     font-weight: 500;
     font-size: 30px;
 }
 
-.desktopVersion{
+.desktopVersion {
     display: none;
 }
 
@@ -176,20 +164,23 @@
     .mobileAndTabletVersion {
         display: none;
     }
-    .desktopVersion{
+
+    .desktopVersion {
         display: flex;
         flex-direction: column;
     }
-    .desktopRow1Container{
+
+    .desktopRow1Container {
         display: flex;
         flex-direction: row;
     }
 
-    .desktopRowColumnContainer{
+    .desktopRowColumnContainer {
         display: flex;
         flex-direction: row;
     }
-    .desktopColumn1Container{
+
+    .desktopColumn1Container {
         display: flex;
         flex-direction: column;
     }
@@ -205,4 +196,94 @@
         margin-right: 300px;
         margin-bottom: 64px;
     }
+}
+.apartmentHunterContainer {
+    background-image: url(../assets/images/apartment-hunter-square.png);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+}
+
+.apartmentHunterName {
+    font-weight: 400;
+    font-size: 25px;
+    font-family: 'Rosarivo', serif;
+    color: black;
+    margin-bottom: 8px;
+}
+
+.apartmentHunterInfoContainer {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    box-sizing: border-box;
+    padding: 36px;
+    position: absolute;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;
+    transform: translateY(-100%);
+}
+
+.apartmentHunterInfoContainerOpen {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    box-sizing: border-box;
+    padding: 36px;
+    position: absolute;
+    opacity: 1;
+    transition: .5s ease;
+    background-color: white;
+    transform: translateY(-100%);
+}
+
+.container:hover .apartmentHunterInfoContainer {
+    opacity: 1;
+}
+
+.apartmentHunterInfoTitle {
+    font-weight: 900;
+    font-size: 20px;
+    text-align: start;
+    display: flex;
+}
+
+.apartmentHunterInfoDescription {
+    font-weight: 400;
+    font-size: 14px;
+    height: 100%;
+    text-align: start;
+    display: flex;
+    margin-top: 16px;
+}
+
+.apartmentHunterInfoIconContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px;
+}
+
+.infoIcon {
+    font-size: 40px;
+    background: linear-gradient(180deg, #FF9966 0%, #FF5E62 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.apartmentHunterInfoTechStack {
+    font-weight: 400;
+    font-size: 12px;
+    text-align: start;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 100%;
+    align-items: flex-end;
 }

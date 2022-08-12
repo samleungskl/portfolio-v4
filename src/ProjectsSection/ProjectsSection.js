@@ -1,12 +1,30 @@
 import './ProjectsSection.css';
+import { useState } from 'react';
 
 function ProjectsSection() {
+    const [style, setStyle] = useState("apartmentHunterInfoContainer smallSquare largeRectangle");
+    const changeStyle = () => {
+      setStyle("apartmentHunterInfoContainerOpen smallSquare largeRectangle");
+    };
+
     return (
         <div className="ProjectsSection">
             <div className='ProjectsSectionTitle title'>Things I've bulit...</div>
             <div className='mobileAndTabletVersion'>
-                <div className='apartmentHunterContainer smallSquare largeRectangle'>
-                    <div className='apartmentHunterName'>Apartment Hunter</div>
+                <div className='container' onClick={changeStyle}>
+                    <div className='apartmentHunterContainer smallSquare largeRectangle'>
+                        <div className='apartmentHunterName'>Apartment Hunter</div>
+                    </div>
+                    <div className={style}>
+                        <div className='apartmentHunterInfoTitle'>Apartment Hunter</div>
+                        <div className='apartmentHunterInfoDescription'>Apartment focus real e-state website. Inspired by Airbnb and Rew.ca. Full Stack Application.</div>
+                        <div className='apartmentHunterInfoIconContainer'>
+                            <i className="fa-brands fa-figma infoIcon"></i>
+                            <i className="fa-brands fa-github infoIcon"></i>
+                            <i className="fa-solid fa-link infoIcon"></i>
+                        </div>
+                        <div className='apartmentHunterInfoTechStack'>React • HTML • CSS • AirTable</div>
+                    </div>
                 </div>
                 <div className='tabletRow2Container'>
                     <div className='amazonPriceTrackerContainer smallSquare'>
