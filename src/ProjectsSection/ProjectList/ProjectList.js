@@ -14,7 +14,7 @@ function ProjectList({projectsList, changeProjectVisible}) {
         projectNameNoSpace={element.projectNameNoSpace}
         projectRecID={element.projectRecID}
         changeProjectVisible={changeProjectVisible}
-        projectInfoVisible={element.projectInfoVisible}
+        projectInfoHide={element.projectInfoHide}
         key={element.projectRecID}/>
     })
     return (

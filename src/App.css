@@ -37,7 +37,7 @@ h2 {
 
 }
 
-.marginTopBottom{
+.marginTopBottom {
   margin-top: 64px;
   margin-bottom: 128px;
 }
@@ -50,26 +50,34 @@ h2 {
   background-clip: text;
 }
 
+.screenReader {
+  height: 1px;
+  width: 1px;
+  font-size: 0px;
+  visibility: hidden;
+}
+
 @media only screen and (min-width: 428px) {
   .title {
     font-weight: 900;
     font-size: 48px;
   }
+
   .msg {
     font-weight: 400;
     font-size: 30px;
   }
+
   .marginLeftRight {
     margin-left: 48px;
     margin-right: 48px;
   }
-  .marginTopBottom{
+
+  .marginTopBottom {
     margin-top: 96px;
     margin-bottom: 128px;
   }
 
 }
 
-@media only screen and (min-width: 768px) {
-
-}
+@media only screen and (min-width: 768px) {}

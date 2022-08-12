@@ -73,6 +73,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: flex-end;
+    background-size: cover;
+    background-position:center;
 }
 .apartmentHunterName{
     font-weight: 400;

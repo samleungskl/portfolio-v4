@@ -23,13 +23,25 @@ export default function useApplicationData() {
     }, []);
 
 
-    const changeProjectVisible = (projectKey) => {
-        const result = state.projects.map((element)=>{
-            if (element.projectRecID === projectKey){
-                element.projectInfoVisible = !element.projectInfoVisible                
+    const changeProjectVisible = (projectKey, type) => {
+        let result = [];
+        result = state.projects.map((element) => {
+            if (element.projectRecID === projectKey) {
+                if (type === 'click') {
+                    element.projectInfoHide = !element.projectInfoHide;
+                }
+
+                if (type === 'hoverIn') {
+                    element.projectInfoHide = false;
+                }
+
+                if (type === 'hoverOut') {
+                    element.projectInfoHide = true;
+                }
             }
-            return element
+            return element;
         })
+
         setState(prev => ({
             ...prev,
             projects: result,
