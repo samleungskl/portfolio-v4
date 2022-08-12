@@ -158,6 +158,18 @@
         width: 328px;
         height: 328px;
     }
+    .apartmentHunterInfoContainer{
+        width: 672px;
+        height: 326px;
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+    .noodlesExpressInfoContainer{
+        width: 672px;
+        height: 326px;
+        padding-left: 180px;
+        padding-right: 180px;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
