@@ -154,6 +154,10 @@
     .amazonPriceTrackerImage{
         margin-right: 16px;
     }
+    .infoContainer{
+        width: 328px;
+        height: 328px;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
