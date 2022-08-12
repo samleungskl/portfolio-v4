@@ -1,7 +1,9 @@
-.ProjectsSection {
+.ProjectList{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: 16px;
+    margin-right: 16px;
     width: 100%;
 }

@@ -11,6 +11,7 @@ import ProjectsSection from './ProjectsSection/ProjectsSection';
 import useApplicationData from './hooks/useApplicationData';
 function App() {
   const { state } = useApplicationData();
+  // console.log(state)
 
   return (
     <div className="App">
@@ -21,7 +22,7 @@ function App() {
       <section className='welcomeSectionContainer marginTopBottom'>
         <WelcomeSection />
       </section>
-      <section className='ProjectsSectionContainer marginTopBottom' id='projects'>
+      <section className='ProjectsSectionContainer marginTopBottom marginLeftRight' id='projects'>
         <ProjectsSection projectsList={state.projects}/>
       </section>
       <section className='aboutMeSectionContainer marginLeftRight marginTopBottom' id='about-me'>

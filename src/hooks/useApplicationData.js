@@ -12,7 +12,7 @@ export default function useApplicationData() {
             console.log('result = ', result)
             setState(prev => ({
                 ...prev,
-                projects: result.projects,
+                projects: result.projects[0],
             }));
         } catch (error) {
             console.error(error);
@@ -23,8 +23,16 @@ export default function useApplicationData() {
     }, []);
 
 
+    const changeProjectVisible = (projectKey, currentVisibleStatus) => {
+        const result = !currentVisibleStatus
+        // setState(prev => ({
+        //     ...prev,
+        //     [key]: result,
+        // }));
+    };
+
     return {
-        state
+        state, changeProjectVisible
     };
 }
 
