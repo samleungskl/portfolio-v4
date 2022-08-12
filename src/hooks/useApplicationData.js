@@ -23,12 +23,18 @@ export default function useApplicationData() {
     }, []);
 
 
-    const changeProjectVisible = (projectKey, currentVisibleStatus) => {
-        const result = !currentVisibleStatus
-        // setState(prev => ({
-        //     ...prev,
-        //     [key]: result,
-        // }));
+    const changeProjectVisible = (projectKey) => {
+        const result = state.projects.map((element)=>{
+            if (element.projectRecID === projectKey){
+                element.projectInfoVisible = !element.projectInfoVisible                
+            }
+            return element
+        })
+        setState(prev => ({
+            ...prev,
+            projects: result,
+        }));
+        console.log('state changed: ', result)
     };
 
     return {

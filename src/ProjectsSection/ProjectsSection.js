@@ -1,12 +1,12 @@
 import './ProjectsSection.css';
 import ProjectList from './ProjectList/ProjectList';
 
-function ProjectsSection({projectsList}) {
+function ProjectsSection({projectsList, changeProjectVisible}) {
     console.log(projectsList)
     return (
         <div className="ProjectsSection">
             <div className='ProjectsSectionTitle title'>Things I've bulit...</div>
-            <ProjectList projectsList={projectsList}/>
+            <ProjectList projectsList={projectsList} changeProjectVisible={changeProjectVisible}/>
         </div>
     );
 }

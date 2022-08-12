@@ -10,7 +10,7 @@ import ProjectsSection from './ProjectsSection/ProjectsSection';
 
 import useApplicationData from './hooks/useApplicationData';
 function App() {
-  const { state } = useApplicationData();
+  const { state, changeProjectVisible } = useApplicationData();
   // console.log(state)
 
   return (
@@ -23,7 +23,7 @@ function App() {
         <WelcomeSection />
       </section>
       <section className='ProjectsSectionContainer marginTopBottom marginLeftRight' id='projects'>
-        <ProjectsSection projectsList={state.projects}/>
+        <ProjectsSection projectsList={state.projects} changeProjectVisible={changeProjectVisible}/>
       </section>
       <section className='aboutMeSectionContainer marginLeftRight marginTopBottom' id='about-me'>
         <AboutMeDevSection />

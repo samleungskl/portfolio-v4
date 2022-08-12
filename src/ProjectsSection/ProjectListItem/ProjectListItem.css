@@ -68,10 +68,6 @@
     margin-right: 5px;
 }
 
-.ProjectListItemContainer:hover .infoContainer {
-    opacity: 1;
-}
-
 .apartmentHunterImage{
     display: flex;
     flex-direction: row;
@@ -133,4 +129,9 @@
     font-family: 'Hanalei Fill', cursive;
     margin-right: 64px;
     margin-bottom: 16px;
+}
+
+
+.ProjectListItemContainer:hover .infoContainer {
+    opacity: 1;
 }
