@@ -1,14 +1,17 @@
 .welcomeSectionBackground {
     height: 600px;
+    overflow: hidden;
     background: linear-gradient(90deg, #FF9966 0%, #FF5E62 100%);
     clip-path: polygon(50% 5%, 100% 0, 100% 95%, 50% 100%, 0 95%, 0 0);
 }
-.welcomeSectionPattern{
+
+.welcomeSectionPattern {
     padding-top: 80px;
     height: 100%;
     transform: rotate(5deg);
     background-image: url('../assets/images/iconPattern.png');
 }
+
 .welcomeTitle {
     transform: rotate(-5deg);
     margin-top: 48px;
@@ -28,9 +31,7 @@
     margin-top: 32px;
 }
 
-@media only screen and (min-width: 428px) {
-
-}
+@media only screen and (min-width: 428px) {}
 
 @media only screen and (min-width: 768px) {
     .welcomeSectionBackground {

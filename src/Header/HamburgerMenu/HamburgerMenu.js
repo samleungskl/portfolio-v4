@@ -10,7 +10,7 @@ function HamburgerMenu() {
                 <div className="dropdown-content">
                     <a href='#about-me' className='hamburgerMenuItem'>About</a>
                     <a href='#projects' className='hamburgerMenuItem'>Projects</a>
-                    <a href='mailto: samleungskl@gmail.com' className='hamburgerMenuItem'>Contact</a>
+                    <a href='#contact' className='hamburgerMenuItem'>Contact</a>
                 </div>
             </div>
         </div>

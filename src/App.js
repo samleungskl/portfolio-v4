@@ -42,7 +42,7 @@ function App() {
         </section>
       </FadeInSection>
       <FadeInSection>
-        <section className='getInTouchSectionContainer marginLeftRight marginTopBottom'>
+        <section className='getInTouchSectionContainer marginLeftRight marginTopBottom' id='contact'>
           <GetInTouchSection />
         </section>
       </FadeInSection>
