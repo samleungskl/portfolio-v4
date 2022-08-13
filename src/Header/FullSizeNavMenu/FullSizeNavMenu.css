@@ -34,3 +34,7 @@ a:active {
 .navItem:visited{
     color: black;
 }
+
+.FullSizeNavMenu .MessageButton{
+    font-size: 18px;
+}
