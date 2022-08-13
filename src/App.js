@@ -26,7 +26,7 @@ function App() {
           <WelcomeSection />
         </section>
       </FadeInSection>
-      <FadeInSection>
+      <FadeInSection >
         <section className='ProjectsSectionContainer marginTopBottom marginLeftRight' id='projects'>
           <ProjectsSection projectsList={state.projects} changeProjectVisible={changeProjectVisible} />
         </section>
