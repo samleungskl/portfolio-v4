@@ -5,8 +5,7 @@ function HamburgerMenu() {
     return (
         <div className='hamburgerMenuContainer'>
             <div className="dropdown">
-                <button className="dropbtn">
-                    <img className='hamburgerMenu' src={hamburger} alt='hambugerMenu'></img>
+                <button className="hamburgerMenu">
                 </button>
                 <div className="dropdown-content">
                     <a href='#about-me' className='hamburgerMenuItem'>About</a>

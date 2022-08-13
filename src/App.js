@@ -1,4 +1,5 @@
 import './App.css';
+import FadeInSection from './FadeInSection/FadeInSection';
 import Header from './Header/Header';
 import Footer from './Footer/Footer';
 import SplashSection from './SplashSection/SplashSection';
@@ -9,32 +10,45 @@ import GetInTouchSection from './GetInTouchSection/GetInTouchSection';
 import ProjectsSection from './ProjectsSection/ProjectsSection';
 
 import useApplicationData from './hooks/useApplicationData';
+
 function App() {
   const { state, changeProjectVisible } = useApplicationData();
-  // console.log(state)
-
   return (
     <div className="App">
       <Header />
-      <section className='splashSectionContainer marginLeftRight marginTopBottom'>
-        <SplashSection />
-      </section>
-      <section className='welcomeSectionContainer marginTopBottom'>
-        <WelcomeSection />
-      </section>
-      <section className='ProjectsSectionContainer marginTopBottom marginLeftRight' id='projects'>
-        <ProjectsSection projectsList={state.projects} changeProjectVisible={changeProjectVisible}/>
-      </section>
-      <section className='aboutMeSectionContainer marginLeftRight marginTopBottom' id='about-me'>
-        <AboutMeDevSection />
-      </section>
-      <section className='AboutMeHumanSectionContainer marginLeftRight marginTopBottom'>
-        <AboutMeHumanSection />
-      </section>
-      <section className='getInTouchSectionContainer marginLeftRight marginTopBottom'>
-        <GetInTouchSection />
-      </section>
-      <Footer />
+      <FadeInSection>
+        <section className='splashSectionContainer marginLeftRight marginTopBottom'>
+          <SplashSection />
+        </section>
+      </FadeInSection>
+      <FadeInSection>
+        <section className='welcomeSectionContainer marginTopBottom'>
+          <WelcomeSection />
+        </section>
+      </FadeInSection>
+      <FadeInSection >
+        <section className='ProjectsSectionContainer marginTopBottom marginLeftRight' id='projects'>
+          <ProjectsSection projectsList={state.projects} changeProjectVisible={changeProjectVisible} />
+        </section>
+      </FadeInSection>
+      <FadeInSection>
+        <section className='aboutMeSectionContainer marginLeftRight marginTopBottom' id='about-me'>
+          <AboutMeDevSection />
+        </section>
+      </FadeInSection>
+      <FadeInSection>
+        <section className='AboutMeHumanSectionContainer marginLeftRight marginTopBottom'>
+          <AboutMeHumanSection />
+        </section>
+      </FadeInSection>
+      <FadeInSection>
+        <section className='getInTouchSectionContainer marginLeftRight marginTopBottom'>
+          <GetInTouchSection />
+        </section>
+      </FadeInSection>
+      <FadeInSection>
+        <Footer />
+      </FadeInSection>
     </div>
   );
 }

@@ -46,11 +46,12 @@ export default function useApplicationData() {
             ...prev,
             projects: result,
         }));
-        console.log('state changed: ', result)
     };
 
     return {
         state, changeProjectVisible
     };
+
+    
 }
 

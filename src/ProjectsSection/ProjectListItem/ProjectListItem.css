@@ -134,10 +134,10 @@
 }
 
 
-.ProjectListItemContainer:hover .infoContainer {
-    opacity: 1;
+.ProjectListItemContainer:hover{
+    transition: .5s ease;
+    transform: translateY(-1px);
 }
-
 @media only screen and (min-width: 780px) {
     .project{
         width: 328px;
@@ -153,6 +153,22 @@
     }
     .amazonPriceTrackerImage{
         margin-right: 16px;
+    }
+    .infoContainer{
+        width: 328px;
+        height: 328px;
+    }
+    .apartmentHunterInfoContainer{
+        width: 672px;
+        height: 326px;
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+    .noodlesExpressInfoContainer{
+        width: 672px;
+        height: 326px;
+        padding-left: 180px;
+        padding-right: 180px;
     }
 }
 
