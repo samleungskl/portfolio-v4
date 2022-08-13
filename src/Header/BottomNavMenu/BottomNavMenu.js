@@ -11,7 +11,7 @@ function BottomNavMenu() {
                 <i className="fa-regular fa-file bottomNavItemIcon"></i>
                 <div className='bottomNavItemLabel'>Pojects</div>
             </a>
-            <a className='bottomNavItemContainer' href='mailto: samleungskl@gmail.com'>
+            <a className='bottomNavItemContainer' href='#contact'>
                 <i className="fa-regular fa-envelope bottomNavItemIcon"></i>
                 <div className='bottomNavItemLabel'>Contact</div>
             </a>
