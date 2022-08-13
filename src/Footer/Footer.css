@@ -30,6 +30,7 @@
 .icon:hover {
     background-color: white;
     color: #FF5E62;
+    transition: .5s ease;
 }
 
 .footerTextContainer{
