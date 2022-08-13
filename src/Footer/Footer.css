@@ -4,7 +4,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 400px;
+    height: 200px;
     clip-path: polygon(50% 10%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0);
 }
 
@@ -16,38 +16,49 @@
 
 .icon {
     color: white;
-    font-size: 30px;
+    font-size: 20px;
+    height: 20px;
+    width: 20px;
     margin: 16px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: solid;
+    padding: 8px;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 100px;
+}
+.icon:hover {
+    background-color: white;
+    color: #FF5E62;
 }
 
+.footerTextContainer{
+    display: flex;
+    flex-direction: column;
+}
 .designByMsg {
-    font-weight: 500;
-    font-size: 20px;
-    color: white;
-}
-
-.designYear {
     font-weight: 500;
     font-size: 16px;
     color: white;
 }
 
+.designYear {
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+}
+
 @media only screen and (min-width: 320px) {
     .footerSection {
-        padding-bottom: 72px;
+        padding-bottom: 64px;
     }
 }
 
 @media only screen and (min-width: 430px) {
     .footerSection {
-        margin-bottom: 0px;
+        padding-bottom: 0px;
     }
 }
 
 @media only screen and (min-width: 768px) {
-    .icon {
-        font-size: 40px;
-        margin: 32px;
-    }
 }
