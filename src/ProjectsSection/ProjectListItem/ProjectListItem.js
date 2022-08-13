@@ -18,9 +18,9 @@ function ProjectListItem({ projectName, projectDescription, projectTechStack, pr
                 <div className='infoTitle'>{projectName}</div>
                 <div className='infoDescription'>{projectDescription}</div>
                 <div className='infoIconContainer'>
-                    <a className="fa-brands fa-figma infoIcon" href={projectFigma}><span className='screenReader'>Figma</span></a>
-                    <a className="fa-brands fa-github infoIcon" href={projectGithub}><span className='screenReader'>Github</span></a>
-                    <a className="fa-solid fa-link infoIcon" href={projectDemo}><span className='screenReader'>Demo</span></a>
+                    {projectFigma && <a className="fa-brands fa-figma infoIcon" href={projectFigma}><span className='screenReader'>Figma</span></a>}
+                    {projectGithub && <a className="fa-brands fa-github infoIcon" href={projectGithub}><span className='screenReader'>Github</span></a>}
+                    {projectDemo && <a className="fa-solid fa-link infoIcon" href={projectDemo}><span className='screenReader'>Demo</span></a>}
                 </div>
                 <div className='infoTechStack'>{projectTechStack}</div>
             </div>

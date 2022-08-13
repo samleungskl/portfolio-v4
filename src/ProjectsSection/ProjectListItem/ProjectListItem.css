@@ -42,7 +42,7 @@
 .infoIconContainer {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin: 16px;
 }
@@ -53,6 +53,8 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    margin-left: 16px;
+    margin-right: 16px;
 }
 
 .infoTechStack {
