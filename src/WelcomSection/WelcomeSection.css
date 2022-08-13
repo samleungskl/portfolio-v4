@@ -1,23 +1,29 @@
 .welcomeSectionBackground {
     height: 600px;
-    padding-top: 80px;
-    clip-path: polygon(50% 5%, 100% 0, 100% 95%, 50% 100%, 0 95%, 0 0);
     background: linear-gradient(90deg, #FF9966 0%, #FF5E62 100%);
-    /* background-image: url('../assets/images/backgroundPattern.svg'); */
+    clip-path: polygon(50% 5%, 100% 0, 100% 95%, 50% 100%, 0 95%, 0 0);
 }
-
+.welcomeSectionPattern{
+    padding-top: 80px;
+    height: 100%;
+    transform: rotate(5deg);
+    background-image: url('../assets/images/iconPattern.png');
+}
 .welcomeTitle {
+    transform: rotate(-5deg);
     margin-top: 48px;
     color: white;
 }
 
 .welcomeMsg {
+    transform: rotate(-5deg);
     font-weight: 900;
     font-size: 25px;
     color: white;
 }
 
 .explainMsg {
+    transform: rotate(-5deg);
     color: white;
     margin-top: 32px;
 }
@@ -28,6 +34,6 @@
 
 @media only screen and (min-width: 768px) {
     .welcomeSectionBackground {
-        height: 450px;
+        height: 600px;
     }
 }

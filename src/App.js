@@ -17,7 +17,7 @@ function App() {
     <div className="App">
       <Header />
       <FadeInSection>
-        <section className='splashSectionContainer marginLeftRight marginTopBottom'>
+        <section className='splashSectionContainer marginLeftRight'>
           <SplashSection />
         </section>
       </FadeInSection>

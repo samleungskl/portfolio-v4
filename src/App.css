@@ -57,6 +57,10 @@ h2 {
   visibility: hidden;
 }
 
+.splashSectionContainer{
+  margin-top: 0px;
+}
+
 @media only screen and (min-width: 428px) {
   .title {
     font-weight: 900;
@@ -78,9 +82,19 @@ h2 {
     margin-bottom: 128px;
   }
 
+
+}
+@media only screen and (min-width: 429px) {
+  .splashSectionContainer{
+    margin-top: 80px;
+  }
 }
 
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+  .splashSectionContainer{
+    margin-top: 128px;
+  }
+}
 
 .fade-in-section {
   opacity: 0;
