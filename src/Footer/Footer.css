@@ -1,11 +1,12 @@
 .footerSection {
-    background: linear-gradient(90deg, #FF9966 0%, #FF5E62 100%);
+    /* background: linear-gradient(90deg, #FF9966 0%, #FF5E62 100%); */
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 200px;
-    clip-path: polygon(50% 10%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0);
+    height: 70px;
+    background-color: #F5F5F7;
+    /* clip-path: polygon(50% 10%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0); */
 }
 
 .iconContainer {
@@ -15,22 +16,16 @@
 }
 
 .icon {
-    color: white;
+    color: black;
     font-size: 20px;
     height: 20px;
     width: 20px;
     margin: 16px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    border: solid;
-    padding: 8px;
-    border-color: white;
-    border-width: 2px;
-    border-radius: 100px;
     opacity: 0.8;
 }
 .icon:hover {
-    background-color: white;
-    color: #FF5E62;
+    color: #363537b7;
     transition: .5s ease;
 }
 
@@ -39,16 +34,9 @@
     flex-direction: column;
 }
 .designByMsg {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
-    color: white;
-    opacity: 0.8;
-}
-
-.designYear {
-    font-weight: 500;
-    font-size: 14px;
-    color: white;
+    color: black;
     opacity: 0.8;
 }
 
