@@ -8,7 +8,6 @@ function ProjectListItem({ projectName, projectDescription, projectTechStack, pr
     const cssInfoHidden = `${projectNameNoSpace}InfoContainer infoContainer hidden`
     const cssInfoShow = `${projectNameNoSpace}InfoContainer infoContainer show`
     const cssInfoContainer = projectInfoHide ? cssInfoHidden : cssInfoShow;
-    console.log('projectInfoHide = ', projectInfoHide,'cssInfoContainer = ', cssInfoContainer)
     return (
         <div className='ProjectListItemContainer' onClick={() => {changeProjectVisible(projectRecID, 'click') }} 
         >

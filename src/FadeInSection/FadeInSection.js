@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 // This animation is copied from here : https://dev.to/selbekk/how-to-fade-in-content-as-it-scrolls-into-view-10j4
 function FadeInSection(props) {
   const [isVisible, setVisible] = React.useState(false);
