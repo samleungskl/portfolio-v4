@@ -19,10 +19,14 @@
     .SplashSection {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         width: 100%
-      }
+    }
+
+    .titleAndSubTitleContainer {
+        width: 50%;
+    }
 
     .profileImageContainer {
         width: 50%;
