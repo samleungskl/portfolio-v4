@@ -7,15 +7,17 @@ import FullSizeNavMenu from './FullSizeNavMenu/FullSizeNavMenu';
 function Header() {
     return (
         <div className="Header">
-            <div className='LogoMenuContainer'>
-                <div className='logoContainer'>
-                    <Logo />
-                </div>
-                <div className='HamburgerMenuContainer'>
-                    <HamburgerMenu />
-                </div>
-                <div className='FullSizeNavMenuContainer'>
-                    <FullSizeNavMenu />
+            <div className='logoMenuContainer'>
+                <div className='logoMenuWidthContainer'>
+                    <div className='logoContainer'>
+                        <Logo />
+                    </div>
+                    <div className='HamburgerMenuContainer'>
+                        <HamburgerMenu />
+                    </div>
+                    <div className='fullSizeNavMenuContainer'>
+                        <FullSizeNavMenu />
+                    </div>
                 </div>
             </div>
             <div className='bottomNavMenuContainer'>
