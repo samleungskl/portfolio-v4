@@ -1,5 +1,4 @@
 import './FullSizeNavMenu.css';
-import MessageButton from '../../MessageButton/MessageButton';
 
 function FullSizeNavMenu() {
     return (

@@ -1,5 +1,4 @@
 import './HamburgerMenu.css';
-import hamburger from '../../assets/images/hamburger.svg'
 
 function HamburgerMenu() {
     return (
