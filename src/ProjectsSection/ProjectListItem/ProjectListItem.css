@@ -180,3 +180,13 @@
         margin-right: 16px;
     }
 }
+
+.hidden{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.show{
+    opacity: 1;
+    visibility: visible;
+}
