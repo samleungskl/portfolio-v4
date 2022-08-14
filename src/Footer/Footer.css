@@ -1,11 +1,12 @@
 .footerSection {
     /* background: linear-gradient(90deg, #FF9966 0%, #FF5E62 100%); */
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 70px;
     background-color: #F5F5F7;
+    padding-bottom: 96px;
     /* clip-path: polygon(50% 10%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0); */
 }
 
@@ -17,7 +18,7 @@
 
 .icon {
     color: black;
-    font-size: 20px;
+    font-size: 25px;
     height: 20px;
     width: 20px;
     margin: 16px;
@@ -41,16 +42,13 @@
 }
 
 @media only screen and (min-width: 320px) {
-    .footerSection {
-        padding-bottom: 64px;
-    }
 }
 
 @media only screen and (min-width: 430px) {
-    .footerSection {
-        padding-bottom: 0px;
-    }
 }
 
 @media only screen and (min-width: 768px) {
+    .footerSection {
+    padding-bottom: 48px;
+    }
 }

@@ -9,7 +9,7 @@ function Footer() {
                     <a className="envelopeIcon fa-solid fa-envelope icon" href='mailto: samleungskl@gmail.com'><span className='screenReader'>E-mail</span></a>
                 </div>
                 <div className='footerTextContainer'>
-                <div className='designByMsg'>Made by Sam Leung 2022</div>
+                    <div className='designByMsg'>Made by Sam Leung 2022</div>
                 </div>
             </section>
         </div>
