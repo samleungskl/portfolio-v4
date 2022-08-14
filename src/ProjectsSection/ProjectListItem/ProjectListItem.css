@@ -190,3 +190,8 @@
     opacity: 1;
     visibility: visible;
 }
+
+.ProjectListItemContainer:hover .infoContainer{
+    opacity: 1;
+    visibility: visible;
+}
