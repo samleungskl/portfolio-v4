@@ -14,7 +14,7 @@ function ProjectListItem({ projectName, projectDescription, projectTechStack, pr
                     <div className={cssProjectNameClassName}>{projectName}</div>
                 </div>
             </div>
-            <div className={cssInfoContainer} style={{ opacity: projectInfoHide ? 0 : 1 }}>
+            <div className={cssInfoContainer} style={{ visibility: projectInfoHide ? 'hidden' : 'visible' }}>
                 <div className='infoTitle'>{projectName}</div>
                 <div className='infoDescription'>{projectDescription}</div>
                 <div className='infoIconContainer'>

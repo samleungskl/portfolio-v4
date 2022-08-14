@@ -17,12 +17,13 @@
     height: 300px;
     box-sizing: border-box;
     padding: 36px;
-    opacity: 0;
+    opacity: 1;
     transition: .5s ease;
     border-radius: 10px;
     position: absolute;
     background-color: white;
     transform: translateY(-100%);
+    visibility: hidden;
 }
 
 .infoTitle {
