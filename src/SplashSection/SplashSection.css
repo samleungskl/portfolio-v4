@@ -10,7 +10,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
     margin-top: 64px;
     margin-bottom: 64px;
 }
@@ -21,15 +20,13 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        width: 100%
     }
 
     .titleAndSubTitleContainer {
-        width: 50%;
+        margin-right: 64px;
     }
 
     .profileImageContainer {
-        width: 50%;
     }
 
     .splashTitle {
