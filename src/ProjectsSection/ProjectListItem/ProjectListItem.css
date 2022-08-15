@@ -1,4 +1,4 @@
-.project{
+.project {
     background-size: 100%;
     width: 300px;
     height: 300px;
@@ -7,11 +7,11 @@
     cursor: pointer;
 }
 
-.ProjectListItemContainer{
+.ProjectListItemContainer {
     margin-bottom: 16px;
 }
 
-.infoContainer{
+.infoContainer {
     display: flex;
     flex-direction: column;
     width: 300px;
@@ -68,19 +68,20 @@
     height: 100%;
 }
 
-.fa-github{
+.fa-github {
     font-size: 40px;
 }
 
-.apartmentHunterImage{
+.apartmentHunterImage {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: flex-end;
     background-size: cover;
-    background-position:center;
+    background-position: center;
 }
-.apartmentHunterName{
+
+.apartmentHunterName {
     font-weight: 400;
     font-size: 25px;
     font-family: 'Rosarivo', serif;
@@ -88,13 +89,14 @@
     margin-bottom: 8px;
 }
 
-.amazonPriceTrackerImage{
+.amazonPriceTrackerImage {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
 }
-.amazonPriceTrackerName{
+
+.amazonPriceTrackerName {
     font-weight: 700;
     font-size: 30px;
     color: white;
@@ -103,13 +105,14 @@
     margin-left: 16px;
 }
 
-.aPIMockerImage{
+.aPIMockerImage {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
 }
-.aPIMockerName{
+
+.aPIMockerName {
     font-weight: 400;
     font-size: 50px;
     color: white;
@@ -120,13 +123,14 @@
     margin-left: 16px;
 }
 
-.noodlesExpressImage{
+.noodlesExpressImage {
     display: flex;
     text-align: end;
     justify-content: flex-end;
     align-items: flex-end;
 }
-.noodlesExpressName{
+
+.noodlesExpressName {
     font-weight: 400;
     font-size: 40px;
     color: white;
@@ -138,32 +142,38 @@
 }
 
 @media only screen and (min-width: 780px) {
-    .project{
+    .project {
         width: 328px;
         height: 328px;
     }
-    .apartmentHunterImage{
+
+    .apartmentHunterImage {
         width: 672px;
         height: 326px;
     }
-    .noodlesExpressImage{
+
+    .noodlesExpressImage {
         width: 672px;
         height: 326px;
     }
-    .amazonPriceTrackerImage{
+
+    .amazonPriceTrackerImage {
         margin-right: 16px;
     }
-    .infoContainer{
+
+    .infoContainer {
         width: 328px;
         height: 328px;
     }
-    .apartmentHunterInfoContainer{
+
+    .apartmentHunterInfoContainer {
         width: 672px;
         height: 326px;
         padding-left: 180px;
         padding-right: 180px;
     }
-    .noodlesExpressInfoContainer{
+
+    .noodlesExpressInfoContainer {
         width: 672px;
         height: 326px;
         padding-left: 180px;
@@ -172,28 +182,30 @@
 }
 
 @media only screen and (min-width: 1120px) {
-    .apartmentHunterImage{
+    .apartmentHunterImage {
         margin-right: 16px;
     }
-    .amazonPriceTrackerImage{
+
+    .amazonPriceTrackerImage {
         margin-right: 0px;
     }
-    .aPIMockerImage{
+
+    .aPIMockerImage {
         margin-right: 16px;
     }
 }
 
-.hidden{
+.hidden {
     opacity: 0;
     visibility: hidden;
 }
 
-.show{
+.show {
     opacity: 1;
     visibility: visible;
 }
 
-/* .ProjectListItemContainer:hover .infoContainer{
+.ProjectListItemContainer:hover .infoContainer {
     opacity: 1;
     visibility: visible;
-} */
+}

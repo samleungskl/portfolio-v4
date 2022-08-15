@@ -30,6 +30,12 @@ export default function useApplicationData() {
                 if (type === 'click') {
                     element.projectInfoHide = !element.projectInfoHide;
                 }
+                if (type === 'hoverIn') {
+                    element.projectInfoHide = false;
+                }
+                if (type === 'hoverOut') {
+                    element.projectInfoHide = true;
+                }
             }
             return element;
         })
