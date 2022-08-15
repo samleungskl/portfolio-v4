@@ -8,13 +8,13 @@
 .welcomeSectionPattern {
     padding-top: 80px;
     height: 100%;
-    /* transform: rotate(5deg); */
     background-size: cover;
     background-image: url('../assets/images/iconPattern.png');
+    position: relative;
 }
 
 .WelcomeSection{
-    /* transform: rotate(-5deg); */
+    position: absolute
 }
 .welcomeTitle {
     margin-top: 48px;
