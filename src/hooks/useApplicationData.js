@@ -36,6 +36,8 @@ export default function useApplicationData() {
                 if (type === 'hoverOut') {
                     element.projectInfoHide = true;
                 }
+            } else {
+                element.projectInfoHide = true;
             }
             return element;
         })
