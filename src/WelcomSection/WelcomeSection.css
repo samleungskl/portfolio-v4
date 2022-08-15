@@ -8,26 +8,26 @@
 .welcomeSectionPattern {
     padding-top: 80px;
     height: 100%;
-    transform: rotate(5deg);
+    /* transform: rotate(5deg); */
     background-size: cover;
     background-image: url('../assets/images/iconPattern.png');
 }
 
+.WelcomeSection{
+    /* transform: rotate(-5deg); */
+}
 .welcomeTitle {
-    transform: rotate(-5deg);
     margin-top: 48px;
     color: white;
 }
 
 .welcomeMsg {
-    transform: rotate(-5deg);
     font-weight: 900;
     font-size: 25px;
     color: white;
 }
 
 .explainMsg {
-    transform: rotate(-5deg);
     color: white;
     margin-top: 32px;
 }
