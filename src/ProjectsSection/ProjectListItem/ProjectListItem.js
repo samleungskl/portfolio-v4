@@ -9,7 +9,7 @@ function ProjectListItem({ projectName, projectDescription, projectTechStack, pr
     const cssInfoShow = `${projectNameNoSpace}InfoContainer infoContainer show`
     const cssInfoContainer = projectInfoHide ? cssInfoHidden : cssInfoShow;
     return (
-        <div className='ProjectListItemContainer' onClick={() => {changeProjectVisible(projectRecID, 'click') }} onMouseEnter={() => {changeProjectVisible(projectRecID, 'hoverIn') }} onMouseLeave={() => {changeProjectVisible(projectRecID, 'hoverOut') }}
+        <div className='ProjectListItemContainer' onClick={() => {changeProjectVisible(projectRecID, 'click') }}
         >
             <div className={cssContainerClassName}>
                 <div style={cssClassBackgroundImg} className={cssClassName}>
