@@ -34,6 +34,7 @@ export default function useApplicationData() {
             return element;
         })
 
+        console.log('state changed =', state)
         setState(prev => ({
             ...prev,
             projects: result,
