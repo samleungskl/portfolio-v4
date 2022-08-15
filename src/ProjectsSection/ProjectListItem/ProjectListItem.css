@@ -193,7 +193,7 @@
     visibility: visible;
 }
 
-.ProjectListItemContainer:hover .infoContainer{
+/* .ProjectListItemContainer:hover .infoContainer{
     opacity: 1;
     visibility: visible;
-}
+} */
