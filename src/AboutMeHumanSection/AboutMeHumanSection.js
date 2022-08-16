@@ -14,6 +14,12 @@ function AboutMeHumanSection() {
                 <div className='moreAboutMeSportContainer'>
                     <div className='aboutMeHumanMsg msg'>My <span className='moreAboutMeMsg coloredText'>❤</span> sport🏸 is <a className='moreAboutMeMsg coloredText' href='https://en.wikipedia.org/wiki/Badminton'>badminton</a>.</div>
                 </div>
+                <div className='moreAboutMeDrinksContainer'>
+                    <div className='aboutMeDrinksMsg msg'>My <span className='moreAboutMeMsg coloredText'>❤</span> drink☕️ is Hawaiian Latte from <a className='moreAboutMeMsg coloredText' href='https://honolulucoffeeyvr.com/'>Honolulu Coffee</a>.</div>
+                </div>
+                <div className='moreAboutMeFoodContainer'>
+                    <div className='aboutMeFoodMsg msg'>My <span className='moreAboutMeMsg coloredText'>❤</span> food🍔 is Smoked Beef Brisket Sandwich from <a className='moreAboutMeMsg coloredText' href='https://www.jacksonsrestobutcher.com/'>Jackson Resto Butcher</a>.</div>
+                </div>
             </div>
         </div>
     );
